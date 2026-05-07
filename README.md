@@ -6,7 +6,7 @@ Distribution Function (CDF).
 - **Precision**: Full IEEE 754 double-precision accuracy
   - Max absolute error: 3.33×10⁻¹⁶ (verified against SciPy 1.15.0)
   - Mean absolute error: 1.35×10⁻¹⁷
-- **Speed**: 170× faster than `scipy.stats.norm.cdf` in scalar benchmarks
+- **Speed**: 200× faster than `scipy.stats.norm.cdf` in scalar benchmarks
 - **Zero dependencies**: A single, self-contained binary module
 - **Drop-in replacement**: `import normcdf; normcdf.normcdf(x)` replaces
   existing SciPy calls with a single-line change
